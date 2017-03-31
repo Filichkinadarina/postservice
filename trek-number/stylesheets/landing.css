@@ -45,6 +45,7 @@ a {
 }
 
 .map {
+  padding: 30px;
   height: 80%;
   width: 77%;
   flex-direction: column;
