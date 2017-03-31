@@ -19,7 +19,7 @@ body {
 }
 
 body {
-  background-image: url(../img/ii1.jpg);
+  /*background-image: url(../img/ii1.jpg);*/
   background-size: cover;
   background-repeat: no-repeat;
   text-overflow: ellipsis;
@@ -58,13 +58,25 @@ img {
 }
 
 .fig {
-  background-image: url(../img/ii11.png);
+  background-image: url(../img/render1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fig1 {
+  background-image: url(../img/render2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fig2 {
+  background-image: url(../img/render33.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 pre,
@@ -80,7 +92,7 @@ code {
 .btn-block {
   display: flex;
   align-items: flex-end;
-  justify-content: center;
+  justify-content: space-between;
   margin: 30px auto 30px;
   width: 80%;
   height: 115%;

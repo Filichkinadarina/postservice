@@ -4,6 +4,12 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.bg {
+  background-image: url(../photos/render2.png);
+  background-size: cover;
+  /*background-repeat: no-repeat;*/
+}
+
 body.landing * {
   -webkit-transition: all .3s ease;
   transition: all .3s ease;
@@ -35,12 +41,13 @@ a {
   justify-content: center;
   align-items: center;
   margin-top: 100px;
-  font-size: 10px;
 }
 
 .map {
-  height: 80%;
-  width: 77%;
+  font-size: 10px;
+  padding: 15px;
+  height: 80vh;
+  width: 77vw;
   flex-direction: column;
   display: flex;
   justify-content: center;
@@ -66,8 +73,8 @@ table {
 }
 
 .kkk {
-  margin-left: -400px;
-  margin-bottom: 100px;
+  padding-right: 470px;
+  padding-bottom: 100px;
 }
 
 /*.compact {

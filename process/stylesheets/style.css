@@ -2,10 +2,6 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&subset=cyrillic');
 @import "font-awesome.css";
 
-@import "../../navigation/stylesheets/menubar.css";
 @import "landing.css";
 @import "social-likes_birman.css";
-@import "button.css";
-@import "modal.css";
-@import "modal1.css";
-@import "bg.css";
+@import "galery.css";

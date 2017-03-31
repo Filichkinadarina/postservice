@@ -4,21 +4,11 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.bg {
-  background-image: url(../photos/12.jpg);
+/*.br {
+  background-image: url(../photos/glaz.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-}
-
-/*.ffff {
-  background-color: rgba(0, 0, 0, 0.5);
-  width: 100vw;
-  height: 100vh;
 }*/
-
-label {
-  font-size: 10px;
-}
 
 body.landing * {
   -webkit-transition: all .3s ease;
@@ -28,41 +18,22 @@ body.landing * {
 body.landing {
   min-width: 768px;
   text-overflow: ellipsis;
+  background-color: #f5f8fa;
   font-weight: bold;
   font-size: 100%;
   font-family: 'Roboto', sans-serif;
   line-height: 20.8px;
+  background-color: #FAFAFA;
 }
 
 h1 {
-  color: #4d5255;
+    color: #4d5255;
 }
 
 h1,
 h3,
 a {
   font-weight: bold;
-}
-
-form {
-  margin: 100px 50px 100px 50px;
-}
-
-.box {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 100px;
-}
-
-.map {
-  height: 80%;
-  width: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: white;
-  box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
 /*.compact {

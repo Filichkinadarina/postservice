@@ -4,14 +4,14 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.bg {
+/*.bg {
   background-image: url(../photos/glaz.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-}
+}*/
 
 .ffff {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0,0,0,.8);
   width: 100vw;
   height: 100vh;
 }

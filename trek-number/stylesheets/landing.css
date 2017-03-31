@@ -4,6 +4,12 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.bg {
+  background-image: url(../photos/render3.png);
+  background-size: cover;
+  /*background-repeat: no-repeat;*/
+}
+
 body.landing * {
   -webkit-transition: all .3s ease;
   transition: all .3s ease;
